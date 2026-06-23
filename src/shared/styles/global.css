@@ -1,0 +1,23 @@
+html {
+	font-size: 8px;
+	font-family: var(--font-family);
+}
+
+html,
+body {
+	height: 100%;
+}
+
+.container {
+	--offset: 3rem;
+	--max-width: 1200px;
+
+	margin-left: auto;
+	margin-right: auto;
+
+	padding-left: var(--offset);
+	padding-right: var(--offset);
+
+	width: 100%;
+	max-width: calc(var(--max-width) + var(--offset) * 2);
+}

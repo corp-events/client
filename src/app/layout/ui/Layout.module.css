@@ -1,0 +1,9 @@
+.layout {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+
+	.layout__inner {
+		flex: 1 1 0;
+	}
+}
